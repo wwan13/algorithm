@@ -1,13 +1,11 @@
 ## Baekjoon Online Judge
 ### Kim Taewan
-### Language : "Python" 
+### Language: "Python" 
 ---
 ## Rules
-- first
-- sec
-- ...
+- Naming Convention: CamelCase
 
 ---
 ## Solved Questions
 ### [Date][Category] Question Number
-- first
+- 

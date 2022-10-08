@@ -8,4 +8,4 @@
 ---
 ## Solved Questions
 ### [Date][Category] Question Number
-- 
+- [20221008][Greedy] 1026

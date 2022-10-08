@@ -10,6 +10,7 @@
 ## Solved Questions
 ### [Date][Category] Question Number
 - [20221008][Greedy] 1026
+- [20221008][Greedy] 2216
 - [implementation]
 - [DFS/BFS]
 - [Sorting]

@@ -5,6 +5,7 @@
 
 ## Rules
 - Naming Convention: CamelCase
+- Clean Code as posible
 
 
 ## Solved Questions

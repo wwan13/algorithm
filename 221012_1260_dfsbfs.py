@@ -1,3 +1,11 @@
+"""
+DATE: 2022.10.12
+QUE NUM: 1260
+QUE NAME: DFS와 BFS 
+QUE TYPE: dfs/bfs
+https://www.acmicpc.net/problem/1260
+"""
+
 import sys
 from collections import deque
 input = sys.stdin.readline

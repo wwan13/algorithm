@@ -17,6 +17,7 @@
 - [20221012][Greedy] 1439
 - [implementation]
 - [20221012][dfs/bfs] 1260
+- [20221012][dfs] 2606
 - [Sorting]
 - [DP]
 - [ShortestPath]

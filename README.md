@@ -14,6 +14,7 @@
 - [20221008][Greedy] 2216
 - [20221010][Greedy] 1715
 - [20221012][Greedy] 1946
+- [20221012][Greedy] 1439
 - [implementation]
 - [DFS/BFS]
 - [Sorting]

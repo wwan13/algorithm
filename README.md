@@ -1,15 +1,12 @@
-# Baekjoon Online Judge
-### Kim Taewan
-### Language: "Python" 
+# 백준 온라인 저지
 
+> Baekjoon Online Judge Solution
 
-## Rules
-- Naming Convention: CamelCase
-- Clean Code as posible
+<aside>
+👌 Complete
 
+</aside>
 
-## Solved Questions
-### [Date][Category] Question Number
 - [20221008][Greedy] 1026
 - [20221008][Greedy] 2216
 - [20221010][Greedy] 1715

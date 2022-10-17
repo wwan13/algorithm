@@ -18,7 +18,7 @@
 [20221015][bfs] 1012
 [20221016][bfs] 2468
 [20221017][dfs] 1520
-[Sorting]
+[20221017][Sorting] 1181
 [DP]
 [ShortestPath]
 [Graph]

@@ -1,7 +1,7 @@
 """
 DATE: 2022.10.18
 QUE NUM: 10816
-QUE NAME: 단어정렬
+QUE NAME: 숫자카드2
 QUE TYPE: binary search
 https://www.acmicpc.net/problem/10816
 """

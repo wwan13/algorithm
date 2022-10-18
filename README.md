@@ -19,6 +19,7 @@
 (11) [20221017][dfs] 1520
 (12) [20221017][Sorting] 1181
 (13) [20221017][BinarySearch] 1920
+(14) [20221018][BinarySearch] 10816
 [DP]
 [ShortestPath]
 [Graph]

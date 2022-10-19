@@ -2,7 +2,7 @@
 DATE: 2022.10.19
 QUE NUM: 2470
 QUE NAME: 두 용액
-QUE TYPE: sorting
+QUE TYPE: twoPointer
 https://www.acmicpc.net/problem/2470
 """
 

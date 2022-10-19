@@ -1,9 +1,9 @@
 """
 DATE: 2022.10.19
-QUE NUM: 1470
+QUE NUM: 2470
 QUE NAME: 두 용액
 QUE TYPE: sorting
-https://www.acmicpc.net/problem/1470
+https://www.acmicpc.net/problem/2470
 """
 
 import sys
@@ -11,10 +11,6 @@ input = sys.stdin.readline
 
 n = int(input())
 data = list(map(int, input().split()))
-
-# n = 5
-# data = [-2, 4, -99, -1, 98]
-
 data.sort()
 
 # 최초 데이터 설졍

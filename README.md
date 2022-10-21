@@ -21,6 +21,7 @@
 (13) [20221017][BinarySearch] 1920
 (14) [20221018][BinarySearch] 10816
 (15) [20221019][TwoPointer] 2470
+(16) [20221021][Greedy] 2437
 [DP]
 [ShortestPath]
 [Graph]

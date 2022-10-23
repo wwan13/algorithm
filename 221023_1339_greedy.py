@@ -22,7 +22,6 @@ for w in words:
         else:
             dict[ww] += pow(10, cnt)
         cnt -= 1
-        # print(dict)
 
 dict = sorted(dict.values(), reverse=True)
 

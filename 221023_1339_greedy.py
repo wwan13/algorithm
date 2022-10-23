@@ -9,30 +9,28 @@ https://www.acmicpc.net/problem/1337
 import sys
 input = sys.stdin.readline
 
-#입력
-# n = int(input())
-# data = [input().strip() for _ in range(n)]
+N = int(input())
+words = [input().rstrip() for _ in range(N)]
 
-n = 1
-data = ['ACDEB']
-tmpData = data.copy()
-
-number = 9
 dict = {}
-while tmpData:
-    tmpData = sorted(tmpData, key = lambda x: len(x), reverse = True)
-    alpha = tmpData[0][0]
-    tmpData[0] = tmpData[0][1:len(tmpData[0])]
-    tmpData = list(filter(None, tmpData))
 
-    if alpha not in dict:
-        dict[alpha] = number
-        number -= 1
+for w in words:
+    cnt = len(w)-1
+    for ww in w:
+        if ww not in dict:
+            dict[ww] = pow(10, cnt)
+        else:
+            dict[ww] += pow(10, cnt)
+        cnt -= 1
+        # print(dict)
 
-result = ["" for _ in range(n)]
-for i in range(n):
-    for a in data[i]:
-        result[i] += str(dict[a])
+dict = sorted(dict.values(), reverse=True)
 
-result = list(map(int, result))
-print(sum(result))
+result = 0
+num = 9
+
+for v in dict:
+    result += v*num
+    num -= 1
+
+print(result)

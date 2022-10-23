@@ -1,6 +1,6 @@
-# 백준 온라인 저지
-
-> Baekjoon Online Judge Solution
+# 백준 온라인 저지 
+ 
+> [Baekjoon Online Judge Solution](https://www.acmicpc.net/user/wwan13)
 
 <br/>
 

@@ -24,10 +24,10 @@
 (16) [20221021][Greedy] 2437 *
 (17) [20221023][Greedy] 1339 *
 (18) [20221024][Binary Search] 2110 *
-(19) [20222026][bfs] 16236
+(19) [20221026][bfs] 16236
+(20) [20221027][DynamicProgramming] 14501
 
 -[todo]-
-[DP]
 [ShortestPath]
 [Graph]
 </code><pre>

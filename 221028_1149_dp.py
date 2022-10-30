@@ -10,10 +10,12 @@ import sys
 input = sys.stdin.readline
 
 n = int(input())
-data = [[] for _ in range(n)]
-for i in range(3):
-    r, g, b = map(int, input().split())
-    data[0].append(r)
-    data[1].append(g)
-    data[2].append(b)
+data = [list(map(int, input().split())) for _ in range(n)]
 
+for i in range(1, n):
+    data[i][0] += min(data[i-1][1], data[i-1][2])
+    data[i][1] += min(data[i-1][0], data[i-1][2])
+    data[i][2] += min(data[i-1][0], data[i-1][1])
+
+result = min(data[n-1])
+print(result)

@@ -62,16 +62,8 @@ def find_closest_fish(shark):
         eatable_fish_list.sort(key=lambda x: (x.distance, x.x, x.y))
         return eatable_fish_list[0]
 
-
-# n = int(input())
-# data = [list(map(int, input().split())) for _ in range(n)]
 n = 4
 data = [[4,3,2,1], [0,0,0,0], [0,0,9,0], [1,2,3,4]]
-# data = [[0,0,0,0], [0,0,0,0], [0,0,9,0], [0,0,0,0]
-# n = 6
-# data = [[5,4,3,2,3,4], [4,3,2,3,4,5], [3,2,9,5,6,6], [2,1,2,3,4,5], [3,2,1,6,5,4], [6,6,6,6,6,6]]
-
-# print(*data, sep="\n")
 
 shark_x, shark_y = map(int,[(i,j) for i in range(n) for j in range(n) if data[i][j]==9][0])
 shark = Shark(shark_x, shark_y)

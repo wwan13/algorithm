@@ -33,6 +33,7 @@
 (25) [20221102][DynamicProgramming] 11503
 (26) [20221104][DynamicProgramming] 2193
 (27) [20221104][DynamicProgramming] 10844
+(28) [20221104][DynamicProgramming] 1932
 
 -[todo]-
 [ShortestPath]

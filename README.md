@@ -39,7 +39,7 @@
 (31) [20221104][DynamicProgramming] 12866
 (32) [20221104][DynamicProgramming] 2156
 
--[todo]-
+[todo]
 [ShortestPath]
 [Graph]
 </code><pre>

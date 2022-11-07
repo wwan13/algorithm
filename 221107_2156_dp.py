@@ -10,9 +10,11 @@ import sys
 input = sys.stdin.readline
 
 n = int(input())
-data = [int(input()) for _ in range(n)]
+data = [0] * 10000
+for i in range(n):
+    data[i] = int(input())
 
-dp = [0] * n
+dp = [0] * 10000
 
 dp[0] = data[0]
 dp[1] = data[0] + data[1]

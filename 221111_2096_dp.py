@@ -18,20 +18,22 @@ data = [list(map(int,input().split())) for _ in range(n)]
 # n = 1
 # data = [[1,2,3]]
 
-dp_max = [[0,0,0] for _ in range(n-1)]
-dp_max.insert(0, data[0])
-
-dp_min = [[0,0,0] for _ in range(n)]
-dp_min.insert(0, data[0])
+dp = [[0,0,0] for _ in range(n)]
+dp.insert(0, data[0])
 
 for i in range(1, n):
-    dp_max[i][0] = data[i][0] + max(dp_max[i-1][0], dp_max[i-1][1])
-    dp_max[i][1] = data[i][1] + max(dp_max[i-1][0], dp_max[i-1][1], dp_max[i-1][2])
-    dp_max[i][2] = data[i][2] + max(dp_max[i-1][1], dp_max[i-1][2])
+    dp[i][0] = data[i][0] + max(dp[i-1][0], dp[i-1][1])
+    dp[i][1] = data[i][1] + max(dp[i-1][0], dp[i-1][1], dp[i-1][2])
+    dp[i][2] = data[i][2] + max(dp[i-1][1], dp[i-1][2])
+    dp[i-1] = [0,0,0]
 
-    dp_min[i][0] = data[i][0] + min(dp_min[i-1][0], dp_min[i-1][1])
-    dp_min[i][1] = data[i][1] + min(dp_min[i-1][0], dp_min[i-1][1], dp_min[i-1][2])
-    dp_min[i][2] = data[i][2] + min(dp_min[i-1][1], dp_min[i-1][2])
+print(max(dp[n-1]))
+dp.insert(0, data[0])
+print(dp)
 
-print(max(dp_max[n-1]))
-print(min(dp_min[n-1]))
+for i in range(1, n):
+    dp[i][0] = data[i][0] + min(dp[i-1][0], dp[i-1][1])
+    dp[i][1] = data[i][1] + min(dp[i-1][0], dp[i-1][1], dp[i-1][2])
+    dp[i][2] = data[i][2] + min(dp[i-1][1], dp[i-1][2])
+
+print(min(dp[n-1]))

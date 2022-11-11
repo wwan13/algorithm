@@ -10,30 +10,27 @@ import sys
 input = sys.stdin.readline
 
 n = int(input())
-data = [list(map(int,input().split())) for _ in range(n)]
+first_data = list(map(int, input().split()))
 
-# n = 3
-# data = [[1,2,3],[4,5,6],[4,9,0]]
+if n == 1:
+    print(max(first_data), min(first_data))
+    sys.exit()
 
-# n = 1
-# data = [[1,2,3]]
+dp_max = [0, 0, 0]
+dp_min = [0, 0, 0]
+max_tmp = first_data.copy()
+min_tmp = first_data.copy()
 
-dp = [[0,0,0] for _ in range(n)]
-dp.insert(0, data[0])
+for i in range(n-1):
+    data = list(map(int, input().split()))
+    dp_max[0] = data[0] + max(max_tmp[0], max_tmp[1])
+    dp_max[1] = data[1] + max(max_tmp[0], max_tmp[1], max_tmp[2])
+    dp_max[2] = data[2] + max(max_tmp[1], max_tmp[2])
+    max_tmp = dp_max.copy()
 
-for i in range(1, n):
-    dp[i][0] = data[i][0] + max(dp[i-1][0], dp[i-1][1])
-    dp[i][1] = data[i][1] + max(dp[i-1][0], dp[i-1][1], dp[i-1][2])
-    dp[i][2] = data[i][2] + max(dp[i-1][1], dp[i-1][2])
-    dp[i-1] = [0,0,0]
-
-print(max(dp[n-1]))
-dp.insert(0, data[0])
-print(dp)
-
-for i in range(1, n):
-    dp[i][0] = data[i][0] + min(dp[i-1][0], dp[i-1][1])
-    dp[i][1] = data[i][1] + min(dp[i-1][0], dp[i-1][1], dp[i-1][2])
-    dp[i][2] = data[i][2] + min(dp[i-1][1], dp[i-1][2])
-
-print(min(dp[n-1]))
+    dp_min[0] = data[0] + min(min_tmp[0], min_tmp[1])
+    dp_min[1] = data[1] + min(min_tmp[0], min_tmp[1], min_tmp[2])
+    dp_min[2] = data[2] + min(min_tmp[1], min_tmp[2])
+    min_tmp = dp_min.copy()
+ 
+print(max(dp_max), min(dp_min))

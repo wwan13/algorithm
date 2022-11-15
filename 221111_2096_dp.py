@@ -14,23 +14,22 @@ first_data = list(map(int, input().split()))
 
 if n == 1:
     print(max(first_data), min(first_data))
-    sys.exit()
+else:
+    dp_max = [0, 0, 0]
+    dp_min = [0, 0, 0]
+    max_tmp = first_data.copy()
+    min_tmp = first_data.copy()
 
-dp_max = [0, 0, 0]
-dp_min = [0, 0, 0]
-max_tmp = first_data.copy()
-min_tmp = first_data.copy()
+    for i in range(n-1):
+        data = list(map(int, input().split()))
+        dp_max[0] = data[0] + max(max_tmp[0], max_tmp[1])
+        dp_max[1] = data[1] + max(max_tmp[0], max_tmp[1], max_tmp[2])
+        dp_max[2] = data[2] + max(max_tmp[1], max_tmp[2])
+        max_tmp = dp_max.copy()
 
-for i in range(n-1):
-    data = list(map(int, input().split()))
-    dp_max[0] = data[0] + max(max_tmp[0], max_tmp[1])
-    dp_max[1] = data[1] + max(max_tmp[0], max_tmp[1], max_tmp[2])
-    dp_max[2] = data[2] + max(max_tmp[1], max_tmp[2])
-    max_tmp = dp_max.copy()
-
-    dp_min[0] = data[0] + min(min_tmp[0], min_tmp[1])
-    dp_min[1] = data[1] + min(min_tmp[0], min_tmp[1], min_tmp[2])
-    dp_min[2] = data[2] + min(min_tmp[1], min_tmp[2])
-    min_tmp = dp_min.copy()
+        dp_min[0] = data[0] + min(min_tmp[0], min_tmp[1])
+        dp_min[1] = data[1] + min(min_tmp[0], min_tmp[1], min_tmp[2])
+        dp_min[2] = data[2] + min(min_tmp[1], min_tmp[2])
+        min_tmp = dp_min.copy()
  
-print(max(dp_max), min(dp_min))
+    print(max(dp_max), min(dp_min))

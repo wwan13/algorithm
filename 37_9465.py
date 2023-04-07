@@ -1,7 +1,7 @@
 """
 DATE: 2023.04.03
 QUE NUM: 9465
-QUE NAME: 피보나치 함수
+QUE NAME: 스티커
 QUE TYPE: dynamic programming
 https://www.acmicpc.net/problem/9465
 """

@@ -7,13 +7,15 @@ https://www.acmicpc.net/problem/2073
 """
 
 import sys
-
 input = sys.stdin.readline
 
 d, p = map(int, input().split())
-
-dp = [100001] + [0] * d
-
-for i in range(1, p+1):
+dp = [1e9] + [0] * d                                        # dp 초기회
+for i in range(p):
     l, c = map(int, input().split())
-    
+    dp_max = dp.copy()
+    for i in range(l, d+1):
+        if dp_max[i-l] :
+            dp[i] = max(dp[i], min(dp_max[i-l], c))
+
+print(dp[d])

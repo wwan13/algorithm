@@ -29,7 +29,6 @@ else:
     _min = dp[-1]
     for i in range(1, n-2):
         dp_copy = dp.copy()
-        print(dp_copy)
 
         if dp_copy[i] + k < dp_copy[i+3]:
             dp_copy[i+3] = dp_copy[i] + k

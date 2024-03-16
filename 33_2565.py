@@ -21,4 +21,5 @@ for i in range(n):
         if data[i][1] > data[j][1]:
             dp[i] = max(dp[i], dp[j] + 1)
 
+
 print(n - max(dp))

@@ -9,6 +9,7 @@ https://www.acmicpc.net/problem/15661
 import sys
 from itertools import combinations
 
+
 input = sys.stdin.readline
 
 

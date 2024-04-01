@@ -47,5 +47,9 @@ public class ConsoleIoModule {
         public static void print(String data) {
             System.out.println(data);
         }
+
+        public static void lineBreak() {
+            System.out.print("\n");
+        }
     }
 }

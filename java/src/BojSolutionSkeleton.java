@@ -2,7 +2,20 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class ConsoleIoModule {
+public class BojSolutionSkeleton {
+
+    public static void main(String[] args) {
+        int answer = solution();
+        displayResult(answer);
+    }
+
+    public static int solution() {
+        return 0;
+    }
+
+    public static void displayResult(int answer) {
+        System.out.println(answer);
+    }
 
     public static class Console {
 
@@ -26,7 +39,7 @@ public class ConsoleIoModule {
 
         public static char[] readArray(int size) {
             char[] data = new char[size];
-            String line = Boj4396.Console.readLine();
+            String line = Console.readLine();
             for (int i = 0; i < size; i++) {
                 data[i] = line.charAt(i);
             }
@@ -36,10 +49,28 @@ public class ConsoleIoModule {
         public static char[][] readDoubleArray(int rowSize, int columnSize) {
             char[][] data = new char[rowSize][columnSize];
             for (int i = 0; i < rowSize; i++) {
-                String line = Boj4396.Console.readLine();
+                String line = Console.readLine();
                 for (int j = 0; j < columnSize; j++) {
                     data[i][j] = line.charAt(j);
                 }
+            }
+            return data;
+        }
+
+        public static int[] readIntArray(int size) {
+            int[] data = new int[size];
+            String[] line = Console.readLine().split(" ");
+            for (int i = 0; i < size; i++) {
+                data[i] = Integer.parseInt(line[i]);
+            }
+            return data;
+        }
+
+        public static int[] readIntArray() {
+            String[] line = Boj1475.Console.readLine().split(" ");
+            int[] data = new int[line.length];
+            for (int i = 0; i < line.length; i++) {
+                data[i] = Integer.parseInt(line[i]);
             }
             return data;
         }

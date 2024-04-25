@@ -4,8 +4,8 @@ import requests
 
 def get_files_by_language(language):
     languages = {
-        "python": "../python",
-        "java": "../java/src"
+        "python": "./python",
+        "java": "./java/src"
     }
 
     return os.listdir(languages[language])

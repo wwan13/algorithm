@@ -50,10 +50,10 @@ def get_solved_info(fileNmae):
 
 
 def create_markdown_file():
-    if os.path.isfile("../README.md"):
-        os.remove("../README.md")
+    if os.path.isfile("./README.md"):
+        os.remove("./README.md")
 
-    readme = open("../README.md", "w")
+    readme = open("./README.md", "w")
 
     readme.write("<div align=\"center\">  \n\n")
     readme.write("![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=OpenJDK&logoColor=white)\n")

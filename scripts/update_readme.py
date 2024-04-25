@@ -1,5 +1,6 @@
 import os
 import requests
+import time
 
 
 def get_files_by_language(language):
@@ -83,6 +84,8 @@ def create_markdown_file():
                 get_solved_info(file)["language"],
             ))
 
+    readme.write("<br/><br/>")
+    readme.write(time.strftime('%Y-%m-%d %H:%M:%S'))
     readme.close()
 
 

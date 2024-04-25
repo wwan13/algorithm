@@ -23,5 +23,5 @@ jobs:
           git config --global user.email "wwan13@naver.com"
           git config --global user.name "wwan13"
           git add README.md
-          git commit -m "<Action> auto update README.md"
+          git commit -m "docs: auto update README.md"
           git push origin main

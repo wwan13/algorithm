@@ -68,53 +68,54 @@
 |  55  |  15661  |  링크와 스타트  |  `G5`  |  `backtracking`  |  `python`  |
 |  56  |  15787  |  기차가 어둠을 헤치고 은하수를  |  `S2`  |  `bitmask`  |  `python`  |
 |  57  |  15903  |  카드 합체 놀이  |  `S1`  |  `data_structures`  |  `python`  |
-|  58  |  16234  |  인구 이동  |  `G4`  |  `bfs`  |  `python`  |
-|  59  |  16236  |  아기 상어  |  `G3`  |  `bfs`  |  `python`  |
-|  60  |  16918  |  봄버맨  |  `S1`  |  `implementation`  |  `python`  |
-|  61  |  16948  |  데스 나이트  |  `S1`  |  `bfs`  |  `python`  |
-|  62  |  1715  |  카드 정렬하기  |  `G4`  |  `data_structures`  |  `python`  |
-|  63  |  17413  |  단어 뒤집기 2  |  `S3`  |  `data_structures`  |  `python`  |
-|  64  |  17626  |  Four Squares  |  `S3`  |  `bruteforcing`  |  `python`  |
-|  65  |  18111  |  마인크래프트  |  `S2`  |  `bruteforcing`  |  `python`  |
-|  66  |  18427  |  함께 블록 쌓기  |  `G4`  |  `dp`  |  `python`  |
-|  67  |  1904  |  01타일  |  `S3`  |  `dp`  |  `python`  |
-|  68  |  1920  |  수 찾기  |  `S4`  |  `binary_search`  |  `python`  |
-|  69  |  1932  |  정수 삼각형  |  `S1`  |  `dp`  |  `python`  |
-|  70  |  1946  |  신입 사원  |  `S1`  |  `greedy`  |  `python`  |
-|  71  |  2002  |  추월  |  `S1`  |  `data_structures`  |  `python`  |
-|  72  |  20207  |  달력  |  `G5`  |  `greedy`  |  `python`  |
-|  73  |  20291  |  파일 정리  |  `S3`  |  `data_structures`  |  `python`  |
-|  74  |  2056  |  작업  |  `G4`  |  `dag`  |  `python`  |
-|  75  |  2073  |  수도배관공사  |  `G4`  |  `dp`  |  `python`  |
-|  76  |  2075  |  N번째 큰 수  |  `S2`  |  `data_structures`  |  `python`  |
-|  77  |  2096  |  내려가기  |  `G5`  |  `dp`  |  `python`  |
-|  78  |  2110  |  공유기 설치  |  `G4`  |  `binary_search`  |  `python`  |
-|  79  |  21317  |  징검다리 건너기  |  `S1`  |  `dp`  |  `python`  |
-|  80  |  2156  |  포도주 시식  |  `S1`  |  `dp`  |  `python`  |
-|  81  |  2193  |  이친수  |  `S3`  |  `dp`  |  `python`  |
-|  82  |  2217  |  로프  |  `S4`  |  `greedy`  |  `python`  |
-|  83  |  2437  |  저울  |  `G2`  |  `greedy`  |  `python`  |
-|  84  |  2468  |  안전 영역  |  `S1`  |  `bfs`  |  `python`  |
-|  85  |  2470  |  두 용액  |  `G5`  |  `binary_search`  |  `python`  |
-|  86  |  2477  |  참외밭  |  `S2`  |  `geometry`  |  `python`  |
-|  87  |  2493  |  탑  |  `G5`  |  `data_structures`  |  `python`  |
-|  88  |  2565  |  전깃줄  |  `G5`  |  `dp`  |  `python`  |
-|  89  |  2579  |  계단 오르기  |  `S3`  |  `dp`  |  `python`  |
-|  90  |  2606  |  바이러스  |  `S3`  |  `graphs`  |  `python`  |
-|  91  |  2615  |  오목  |  `S1`  |  `bruteforcing`  |  `python`  |
-|  92  |  2667  |  단지번호붙이기  |  `S1`  |  `bfs`  |  `python`  |
-|  93  |  2961  |  도영이가 만든 맛있는 음식  |  `S2`  |  `backtracking`  |  `python`  |
-|  94  |  3003  |  킹, 퀸, 룩, 비숍, 나이트, 폰  |  `B5`  |  `implementation`  |  `python`  |
-|  95  |  3009  |  네 번째 점  |  `B3`  |  `geometry`  |  `python`  |
-|  96  |  3085  |  사탕 게임  |  `S2`  |  `bruteforcing`  |  `python`  |
-|  97  |  4673  |  셀프 넘버  |  `S5`  |  `bruteforcing`  |  `python`  |
-|  98  |  4796  |  캠핑  |  `B1`  |  `greedy`  |  `python`  |
-|  99  |  5557  |  1학년  |  `G5`  |  `dp`  |  `python`  |
-|  100  |  9084  |  동전  |  `G5`  |  `dp`  |  `python`  |
-|  101  |  9095  |  1, 2, 3 더하기  |  `S3`  |  `dp`  |  `python`  |
-|  102  |  9251  |  LCS  |  `G5`  |  `dp`  |  `python`  |
-|  103  |  9465  |  스티커  |  `S1`  |  `dp`  |  `python`  |
-|  104  |  9655  |  돌 게임  |  `S5`  |  `dp`  |  `python`  |
+|  58  |  15988  |  1, 2, 3 더하기 3  |  `S2`  |  `dp`  |  `python`  |
+|  59  |  16234  |  인구 이동  |  `G4`  |  `bfs`  |  `python`  |
+|  60  |  16236  |  아기 상어  |  `G3`  |  `bfs`  |  `python`  |
+|  61  |  16918  |  봄버맨  |  `S1`  |  `implementation`  |  `python`  |
+|  62  |  16948  |  데스 나이트  |  `S1`  |  `bfs`  |  `python`  |
+|  63  |  1715  |  카드 정렬하기  |  `G4`  |  `data_structures`  |  `python`  |
+|  64  |  17413  |  단어 뒤집기 2  |  `S3`  |  `data_structures`  |  `python`  |
+|  65  |  17626  |  Four Squares  |  `S3`  |  `bruteforcing`  |  `python`  |
+|  66  |  18111  |  마인크래프트  |  `S2`  |  `bruteforcing`  |  `python`  |
+|  67  |  18427  |  함께 블록 쌓기  |  `G4`  |  `dp`  |  `python`  |
+|  68  |  1904  |  01타일  |  `S3`  |  `dp`  |  `python`  |
+|  69  |  1920  |  수 찾기  |  `S4`  |  `binary_search`  |  `python`  |
+|  70  |  1932  |  정수 삼각형  |  `S1`  |  `dp`  |  `python`  |
+|  71  |  1946  |  신입 사원  |  `S1`  |  `greedy`  |  `python`  |
+|  72  |  2002  |  추월  |  `S1`  |  `data_structures`  |  `python`  |
+|  73  |  20207  |  달력  |  `G5`  |  `greedy`  |  `python`  |
+|  74  |  20291  |  파일 정리  |  `S3`  |  `data_structures`  |  `python`  |
+|  75  |  2056  |  작업  |  `G4`  |  `dag`  |  `python`  |
+|  76  |  2073  |  수도배관공사  |  `G4`  |  `dp`  |  `python`  |
+|  77  |  2075  |  N번째 큰 수  |  `S2`  |  `data_structures`  |  `python`  |
+|  78  |  2096  |  내려가기  |  `G5`  |  `dp`  |  `python`  |
+|  79  |  2110  |  공유기 설치  |  `G4`  |  `binary_search`  |  `python`  |
+|  80  |  21317  |  징검다리 건너기  |  `S1`  |  `dp`  |  `python`  |
+|  81  |  2156  |  포도주 시식  |  `S1`  |  `dp`  |  `python`  |
+|  82  |  2193  |  이친수  |  `S3`  |  `dp`  |  `python`  |
+|  83  |  2217  |  로프  |  `S4`  |  `greedy`  |  `python`  |
+|  84  |  2437  |  저울  |  `G2`  |  `greedy`  |  `python`  |
+|  85  |  2468  |  안전 영역  |  `S1`  |  `bfs`  |  `python`  |
+|  86  |  2470  |  두 용액  |  `G5`  |  `binary_search`  |  `python`  |
+|  87  |  2477  |  참외밭  |  `S2`  |  `geometry`  |  `python`  |
+|  88  |  2493  |  탑  |  `G5`  |  `data_structures`  |  `python`  |
+|  89  |  2565  |  전깃줄  |  `G5`  |  `dp`  |  `python`  |
+|  90  |  2579  |  계단 오르기  |  `S3`  |  `dp`  |  `python`  |
+|  91  |  2606  |  바이러스  |  `S3`  |  `graphs`  |  `python`  |
+|  92  |  2615  |  오목  |  `S1`  |  `bruteforcing`  |  `python`  |
+|  93  |  2667  |  단지번호붙이기  |  `S1`  |  `bfs`  |  `python`  |
+|  94  |  2961  |  도영이가 만든 맛있는 음식  |  `S2`  |  `backtracking`  |  `python`  |
+|  95  |  3003  |  킹, 퀸, 룩, 비숍, 나이트, 폰  |  `B5`  |  `implementation`  |  `python`  |
+|  96  |  3009  |  네 번째 점  |  `B3`  |  `geometry`  |  `python`  |
+|  97  |  3085  |  사탕 게임  |  `S2`  |  `bruteforcing`  |  `python`  |
+|  98  |  4673  |  셀프 넘버  |  `S5`  |  `bruteforcing`  |  `python`  |
+|  99  |  4796  |  캠핑  |  `B1`  |  `greedy`  |  `python`  |
+|  100  |  5557  |  1학년  |  `G5`  |  `dp`  |  `python`  |
+|  101  |  9084  |  동전  |  `G5`  |  `dp`  |  `python`  |
+|  102  |  9095  |  1, 2, 3 더하기  |  `S3`  |  `dp`  |  `python`  |
+|  103  |  9251  |  LCS  |  `G5`  |  `dp`  |  `python`  |
+|  104  |  9465  |  스티커  |  `S1`  |  `dp`  |  `python`  |
+|  105  |  9655  |  돌 게임  |  `S5`  |  `dp`  |  `python`  |
 
 <br/>
-2024-04-26 08:01:05
+2024-04-26 11:00:08

@@ -14,11 +14,11 @@ def get_files_by_language(language):
 
 def get_problem_info(problem_id):
     levels = {
-        0: "U",
-        1: "B5", 2: "B4", 3: "B3", 4: "B2", 5: "B1",
-        6: "S5", 7: "S4", 8: "S3", 9: "S2", 10: "S1",
-        11: "G5", 12: "G4", 13: "G3", 14: "G2", 15: "G1",
-        16: "P1", 17: "P2", 18: "P3", 19: "P2", 20: "P1",
+        0: "`U`",
+        1: "`B5`", 2: "`B4`", 3: "`B3`", 4: "`B2`", 5: "`B1`",
+        6: "`S5`", 7: "`S4`", 8: "`S3`", 9: "`S2`", 10: "`S1`",
+        11: "`G5`", 12: "`G4`", 13: "`G3`", 14: "`G2`", 15: "`G1`",
+        16: "`P1`", 17: "`P2`", 18: "`P3`", 19: "`P2`", 20: "`P1`",
     }
 
     response = requests.get("https://solved.ac/api/v3/problem/show?problemId={}".format(problem_id)).json()
@@ -35,18 +35,18 @@ def get_solved_info(fileNmae):
     if fileNmae.startswith("boj_"):
         return {
             "problem_number": fileNmae.split("_")[1].split(".")[0],
-            "language": "![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)"
+            "language": "`python`"
         }
 
     if fileNmae.startswith("Boj"):
         return {
             "problem_number": fileNmae.split("Boj")[1].split(".")[0],
-            "language": "![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=OpenJDK&logoColor=white)"
+            "language": "`java`"
         }
 
     return {
             "problem_number": fileNmae,
-            "language": "none"
+            "language": "`unknown`"
         }
 
 
@@ -63,7 +63,7 @@ def create_markdown_file():
     readme.write("</div>\n")
     readme.write("<br/>\n")
 
-    readme.write("## 🌱 SOLVED PROBLEMS\n")
+    readme.write("## 🌱 SOLVED PROBLEMS\n\n")
     readme.write("| NUM |  ID  | NAME | LEVEL | TAG | LANGUAGE |\n")
     readme.write("|:---:|:----:|:----:|:----:|:---:|:---:|\n")
 
@@ -82,7 +82,7 @@ def create_markdown_file():
                 problem_number,
                 problem_info["problem_name"],
                 problem_info["problem_level"],
-                problem_info["problem_tag"],
+                "`{}`".format(problem_info["problem_tag"]),
                 get_solved_info(file)["language"],
             ))
 

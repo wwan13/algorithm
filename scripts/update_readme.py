@@ -35,13 +35,13 @@ def get_solved_info(fileNmae):
     if fileNmae.startswith("boj_"):
         return {
             "problem_number": fileNmae.split("_")[1].split(".")[0],
-            "language": "python"
+            "language": "![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)"
         }
 
     if fileNmae.startswith("Boj"):
         return {
             "problem_number": fileNmae.split("Boj")[1].split(".")[0],
-            "language": "java"
+            "language": "![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=OpenJDK&logoColor=white)"
         }
 
     return {
@@ -56,13 +56,15 @@ def create_markdown_file():
 
     readme = open("./README.md", "w")
 
-    readme.write("<div align=\"center\">  \n\n")
+    readme.write("<div>  \n\n")
     readme.write("![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=OpenJDK&logoColor=white)\n")
     readme.write("![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)  \n")
     readme.write("[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=wwan13)](https://solved.ac//)<br>\n\n")
-    readme.write("</div>\n\n")
+    readme.write("</div>\n")
+    readme.write("<br/>\n")
 
-    readme.write("| NUM |  ID  | RANK | NAME | TAG | LANGUAGE |\n")
+    readme.write("## 🌱 SOLVED PROBLEMS\n")
+    readme.write("| NUM |  ID  | NAME | LEVEL | TAG | LANGUAGE |\n")
     readme.write("|:---:|:----:|:----:|:----:|:---:|:---:|\n")
 
     index = 0
@@ -84,7 +86,7 @@ def create_markdown_file():
                 get_solved_info(file)["language"],
             ))
 
-    readme.write("<br/><br/>")
+    readme.write("\n<br/>\n")
     readme.write(time.strftime('%Y-%m-%d %H:%M:%S'))
     readme.close()
 

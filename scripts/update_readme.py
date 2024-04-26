@@ -69,7 +69,7 @@ def create_markdown_file():
 
     index = 0
 
-    files = get_files_by_language("python") + get_files_by_language("java")
+    files = sorted(get_files_by_language("python") + get_files_by_language("java"))
     for file in files:
         if file.startswith("boj_") or file.startswith("Boj"):
             index += 1

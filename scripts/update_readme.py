@@ -69,22 +69,26 @@ def create_markdown_file():
 
     index = 0
 
-    files = sorted(get_files_by_language("python") + get_files_by_language("java"))
-    for file in files:
-        if file.startswith("boj_") or file.startswith("Boj"):
-            index += 1
-            row_format = "|  {}  |  {}  |  {}  |  {}  |  {}  |  {}  |\n"
-            problem_number = get_solved_info(file)["problem_number"]
-            problem_info = get_problem_info(problem_number)
+    files = get_files_by_language("python") + get_files_by_language("java")
+    ignored = ["python_summary", "SolutionSkeleton.java"]
+    for e in ignored:
+        files.remove(e)
+    files.sort(key=lambda x: int(get_solved_info(x)["problem_number"]))
 
-            readme.write(row_format.format(
-                index,
-                problem_number,
-                problem_info["problem_name"],
-                "`{}`".format(problem_info["problem_level"]),
-                "`{}`".format(problem_info["problem_tag"]),
-                "`{}`".format(get_solved_info(file)["language"]),
-            ))
+    for file in files:
+        index += 1
+        row_format = "|  {}  |  {}  |  {}  |  {}  |  {}  |  {}  |\n"
+        problem_number = get_solved_info(file)["problem_number"]
+        problem_info = get_problem_info(problem_number)
+
+        readme.write(row_format.format(
+            index,
+            problem_number,
+            problem_info["problem_name"],
+            "`{}`".format(problem_info["problem_level"]),
+            "`{}`".format(problem_info["problem_tag"]),
+            "`{}`".format(get_solved_info(file)["language"]),
+        ))
 
     readme.write("\n<br/>\n")
     readme.write(time.strftime('%Y-%m-%d %H:%M:%S'))

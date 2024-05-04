@@ -78,55 +78,56 @@
 |  65  |  4673  |  셀프 넘버  |  `S5`  |  `bruteforcing`  |  `python`  |
 |  66  |  4796  |  캠핑  |  `B1`  |  `greedy`  |  `python`  |
 |  67  |  5557  |  1학년  |  `G5`  |  `dp`  |  `python`  |
-|  68  |  9084  |  동전  |  `G5`  |  `dp`  |  `python`  |
-|  69  |  9095  |  1, 2, 3 더하기  |  `S3`  |  `dp`  |  `python`  |
-|  70  |  9251  |  LCS  |  `G5`  |  `dp`  |  `python`  |
-|  71  |  9465  |  스티커  |  `S1`  |  `dp`  |  `python`  |
-|  72  |  9655  |  돌 게임  |  `S5`  |  `dp`  |  `python`  |
-|  73  |  10250  |  ACM 호텔  |  `B3`  |  `arithmetic`  |  `java`  |
-|  74  |  10655  |  마라톤 1  |  `S3`  |  `bruteforcing`  |  `python`  |
-|  75  |  10773  |  제로  |  `S4`  |  `data_structures`  |  `java`  |
-|  76  |  10816  |  숫자 카드 2  |  `S4`  |  `binary_search`  |  `python`  |
-|  77  |  10819  |  차이를 최대로  |  `S2`  |  `backtracking`  |  `python`  |
-|  78  |  10844  |  쉬운 계단 수  |  `S1`  |  `dp`  |  `python`  |
-|  79  |  10845  |  큐  |  `S4`  |  `data_structures`  |  `python`  |
-|  80  |  10866  |  덱  |  `S4`  |  `data_structures`  |  `java`  |
-|  81  |  10971  |  외판원 순회 2  |  `S2`  |  `backtracking`  |  `java`  |
-|  82  |  11000  |  강의실 배정  |  `G5`  |  `data_structures`  |  `python`  |
-|  83  |  11048  |  이동하기  |  `S2`  |  `dp`  |  `python`  |
-|  84  |  11052  |  카드 구매하기  |  `S1`  |  `dp`  |  `python`  |
-|  85  |  11053  |  가장 긴 증가하는 부분 수열  |  `S2`  |  `dp`  |  `python`  |
-|  86  |  11123  |  양 한마리... 양 두마리...  |  `S2`  |  `bfs`  |  `java`  |
-|  87  |  11441  |  합 구하기  |  `S3`  |  `prefix_sum`  |  `python`  |
-|  88  |  11654  |  아스키 코드  |  `B5`  |  `implementation`  |  `java`  |
-|  89  |  11659  |  구간 합 구하기 4  |  `S3`  |  `prefix_sum`  |  `python`  |
-|  90  |  11727  |  2×n 타일링 2  |  `S3`  |  `dp`  |  `python`  |
-|  91  |  11866  |  요세푸스 문제 0  |  `S5`  |  `data_structures`  |  `python`  |
-|  92  |  12764  |  싸지방에 간 준하  |  `G3`  |  `data_structures`  |  `python`  |
-|  93  |  12865  |  평범한 배낭  |  `G5`  |  `dp`  |  `python`  |
-|  94  |  13904  |  과제  |  `G3`  |  `data_structures`  |  `python`  |
-|  95  |  13975  |  파일 합치기 3  |  `G4`  |  `data_structures`  |  `python`  |
-|  96  |  14501  |  퇴사  |  `S3`  |  `bruteforcing`  |  `python`  |
-|  97  |  14620  |  꽃길  |  `S2`  |  `bruteforcing`  |  `python`  |
-|  98  |  14719  |  빗물  |  `G5`  |  `implementation`  |  `python`  |
-|  99  |  14940  |  쉬운 최단거리  |  `S1`  |  `bfs`  |  `python`  |
-|  100  |  15486  |  퇴사 2  |  `G5`  |  `dp`  |  `python`  |
-|  101  |  15661  |  링크와 스타트  |  `G5`  |  `backtracking`  |  `python`  |
-|  102  |  15787  |  기차가 어둠을 헤치고 은하수를  |  `S2`  |  `bitmask`  |  `python`  |
-|  103  |  15886  |  내 선물을 받아줘 2  |  `S3`  |  `graphs`  |  `java`  |
-|  104  |  15903  |  카드 합체 놀이  |  `S1`  |  `data_structures`  |  `python`  |
-|  105  |  15988  |  1, 2, 3 더하기 3  |  `S2`  |  `dp`  |  `python`  |
-|  106  |  16234  |  인구 이동  |  `G4`  |  `bfs`  |  `python`  |
-|  107  |  16236  |  아기 상어  |  `G3`  |  `bfs`  |  `python`  |
-|  108  |  16918  |  봄버맨  |  `S1`  |  `implementation`  |  `python`  |
-|  109  |  16948  |  데스 나이트  |  `S1`  |  `bfs`  |  `python`  |
-|  110  |  17413  |  단어 뒤집기 2  |  `S3`  |  `data_structures`  |  `python`  |
-|  111  |  17626  |  Four Squares  |  `S3`  |  `bruteforcing`  |  `python`  |
-|  112  |  18111  |  마인크래프트  |  `S2`  |  `bruteforcing`  |  `python`  |
-|  113  |  18427  |  함께 블록 쌓기  |  `G4`  |  `dp`  |  `python`  |
-|  114  |  20207  |  달력  |  `G5`  |  `greedy`  |  `python`  |
-|  115  |  20291  |  파일 정리  |  `S3`  |  `data_structures`  |  `python`  |
-|  116  |  21317  |  징검다리 건너기  |  `S1`  |  `dp`  |  `python`  |
+|  68  |  9012  |  괄호  |  `S4`  |  `data_structures`  |  `python`  |
+|  69  |  9084  |  동전  |  `G5`  |  `dp`  |  `python`  |
+|  70  |  9095  |  1, 2, 3 더하기  |  `S3`  |  `dp`  |  `python`  |
+|  71  |  9251  |  LCS  |  `G5`  |  `dp`  |  `python`  |
+|  72  |  9465  |  스티커  |  `S1`  |  `dp`  |  `python`  |
+|  73  |  9655  |  돌 게임  |  `S5`  |  `dp`  |  `python`  |
+|  74  |  10250  |  ACM 호텔  |  `B3`  |  `arithmetic`  |  `java`  |
+|  75  |  10655  |  마라톤 1  |  `S3`  |  `bruteforcing`  |  `python`  |
+|  76  |  10773  |  제로  |  `S4`  |  `data_structures`  |  `java`  |
+|  77  |  10816  |  숫자 카드 2  |  `S4`  |  `binary_search`  |  `python`  |
+|  78  |  10819  |  차이를 최대로  |  `S2`  |  `backtracking`  |  `python`  |
+|  79  |  10844  |  쉬운 계단 수  |  `S1`  |  `dp`  |  `python`  |
+|  80  |  10845  |  큐  |  `S4`  |  `data_structures`  |  `python`  |
+|  81  |  10866  |  덱  |  `S4`  |  `data_structures`  |  `java`  |
+|  82  |  10971  |  외판원 순회 2  |  `S2`  |  `backtracking`  |  `java`  |
+|  83  |  11000  |  강의실 배정  |  `G5`  |  `data_structures`  |  `python`  |
+|  84  |  11048  |  이동하기  |  `S2`  |  `dp`  |  `python`  |
+|  85  |  11052  |  카드 구매하기  |  `S1`  |  `dp`  |  `python`  |
+|  86  |  11053  |  가장 긴 증가하는 부분 수열  |  `S2`  |  `dp`  |  `python`  |
+|  87  |  11123  |  양 한마리... 양 두마리...  |  `S2`  |  `bfs`  |  `java`  |
+|  88  |  11441  |  합 구하기  |  `S3`  |  `prefix_sum`  |  `python`  |
+|  89  |  11654  |  아스키 코드  |  `B5`  |  `implementation`  |  `java`  |
+|  90  |  11659  |  구간 합 구하기 4  |  `S3`  |  `prefix_sum`  |  `python`  |
+|  91  |  11727  |  2×n 타일링 2  |  `S3`  |  `dp`  |  `python`  |
+|  92  |  11866  |  요세푸스 문제 0  |  `S5`  |  `data_structures`  |  `python`  |
+|  93  |  12764  |  싸지방에 간 준하  |  `G3`  |  `data_structures`  |  `python`  |
+|  94  |  12865  |  평범한 배낭  |  `G5`  |  `dp`  |  `python`  |
+|  95  |  13904  |  과제  |  `G3`  |  `data_structures`  |  `python`  |
+|  96  |  13975  |  파일 합치기 3  |  `G4`  |  `data_structures`  |  `python`  |
+|  97  |  14501  |  퇴사  |  `S3`  |  `bruteforcing`  |  `python`  |
+|  98  |  14620  |  꽃길  |  `S2`  |  `bruteforcing`  |  `python`  |
+|  99  |  14719  |  빗물  |  `G5`  |  `implementation`  |  `python`  |
+|  100  |  14940  |  쉬운 최단거리  |  `S1`  |  `bfs`  |  `python`  |
+|  101  |  15486  |  퇴사 2  |  `G5`  |  `dp`  |  `python`  |
+|  102  |  15661  |  링크와 스타트  |  `G5`  |  `backtracking`  |  `python`  |
+|  103  |  15787  |  기차가 어둠을 헤치고 은하수를  |  `S2`  |  `bitmask`  |  `python`  |
+|  104  |  15886  |  내 선물을 받아줘 2  |  `S3`  |  `graphs`  |  `java`  |
+|  105  |  15903  |  카드 합체 놀이  |  `S1`  |  `data_structures`  |  `python`  |
+|  106  |  15988  |  1, 2, 3 더하기 3  |  `S2`  |  `dp`  |  `python`  |
+|  107  |  16234  |  인구 이동  |  `G4`  |  `bfs`  |  `python`  |
+|  108  |  16236  |  아기 상어  |  `G3`  |  `bfs`  |  `python`  |
+|  109  |  16918  |  봄버맨  |  `S1`  |  `implementation`  |  `python`  |
+|  110  |  16948  |  데스 나이트  |  `S1`  |  `bfs`  |  `python`  |
+|  111  |  17413  |  단어 뒤집기 2  |  `S3`  |  `data_structures`  |  `python`  |
+|  112  |  17626  |  Four Squares  |  `S3`  |  `bruteforcing`  |  `python`  |
+|  113  |  18111  |  마인크래프트  |  `S2`  |  `bruteforcing`  |  `python`  |
+|  114  |  18427  |  함께 블록 쌓기  |  `G4`  |  `dp`  |  `python`  |
+|  115  |  20207  |  달력  |  `G5`  |  `greedy`  |  `python`  |
+|  116  |  20291  |  파일 정리  |  `S3`  |  `data_structures`  |  `python`  |
+|  117  |  21317  |  징검다리 건너기  |  `S1`  |  `dp`  |  `python`  |
 
 <br/>
-2024-05-04 02:26:10
+2024-05-04 02:28:46

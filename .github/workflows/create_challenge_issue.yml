@@ -5,7 +5,7 @@ on:
     branches: [ "main" ]
 
 jobs:
-  update-readme:
+  create-challenge-issue:
     runs-on: ubuntu-latest
 
     steps:

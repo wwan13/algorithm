@@ -131,9 +131,10 @@
 |  118  |  17626  |  Four Squares  |  `S3`  |  `bruteforcing`  |  `python`  |
 |  119  |  18111  |  마인크래프트  |  `S2`  |  `bruteforcing`  |  `python`  |
 |  120  |  18427  |  함께 블록 쌓기  |  `G4`  |  `dp`  |  `python`  |
-|  121  |  20207  |  달력  |  `G5`  |  `greedy`  |  `python`  |
-|  122  |  20291  |  파일 정리  |  `S3`  |  `data_structures`  |  `python`  |
-|  123  |  21317  |  징검다리 건너기  |  `S1`  |  `dp`  |  `python`  |
+|  121  |  18870  |  좌표 압축  |  `S2`  |  `coordinate_compression`  |  `python`  |
+|  122  |  20207  |  달력  |  `G5`  |  `greedy`  |  `python`  |
+|  123  |  20291  |  파일 정리  |  `S3`  |  `data_structures`  |  `python`  |
+|  124  |  21317  |  징검다리 건너기  |  `S1`  |  `dp`  |  `python`  |
 
 <br/>
-2024-05-10 02:20:08
+2024-05-10 08:35:46

@@ -135,15 +135,16 @@
 |  122  |  16918  |  봄버맨  |  `S1`  |  `implementation`  |  `python`  |
 |  123  |  16948  |  데스 나이트  |  `S1`  |  `bfs`  |  `python`  |
 |  124  |  17413  |  단어 뒤집기 2  |  `S3`  |  `data_structures`  |  `python`  |
-|  125  |  17626  |  Four Squares  |  `S3`  |  `bruteforcing`  |  `python`  |
-|  126  |  18111  |  마인크래프트  |  `S2`  |  `bruteforcing`  |  `python`  |
-|  127  |  18427  |  함께 블록 쌓기  |  `G4`  |  `dp`  |  `python`  |
-|  128  |  18870  |  좌표 압축  |  `S2`  |  `coordinate_compression`  |  `python`  |
-|  129  |  20207  |  달력  |  `G5`  |  `greedy`  |  `python`  |
-|  130  |  20291  |  파일 정리  |  `S3`  |  `data_structures`  |  `python`  |
-|  131  |  20365  |  블로그2  |  `S3`  |  `greedy`  |  `python`  |
-|  132  |  21317  |  징검다리 건너기  |  `S1`  |  `dp`  |  `python`  |
-|  133  |  21921  |  블로그  |  `S3`  |  `prefix_sum`  |  `python`  |
+|  125  |  17425  |  약수의 합  |  `G4`  |  `math`  |  `python`  |
+|  126  |  17626  |  Four Squares  |  `S3`  |  `bruteforcing`  |  `python`  |
+|  127  |  18111  |  마인크래프트  |  `S2`  |  `bruteforcing`  |  `python`  |
+|  128  |  18427  |  함께 블록 쌓기  |  `G4`  |  `dp`  |  `python`  |
+|  129  |  18870  |  좌표 압축  |  `S2`  |  `coordinate_compression`  |  `python`  |
+|  130  |  20207  |  달력  |  `G5`  |  `greedy`  |  `python`  |
+|  131  |  20291  |  파일 정리  |  `S3`  |  `data_structures`  |  `python`  |
+|  132  |  20365  |  블로그2  |  `S3`  |  `greedy`  |  `python`  |
+|  133  |  21317  |  징검다리 건너기  |  `S1`  |  `dp`  |  `python`  |
+|  134  |  21921  |  블로그  |  `S3`  |  `prefix_sum`  |  `python`  |
 
 <br/>
-2024-05-20 13:57:17
+2024-05-21 07:07:41

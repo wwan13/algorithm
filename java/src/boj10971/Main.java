@@ -1,9 +1,11 @@
+package boj10971;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Boj10971 {
+public class Main {
 
     static int n;
     static int[][] map;

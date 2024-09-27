@@ -1,8 +1,10 @@
+package boj11654;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Boj11654 {
+public class Main {
 
     public static void main(String[] args) {
         char input = Console.readLine().charAt(0);

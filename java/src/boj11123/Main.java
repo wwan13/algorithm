@@ -1,10 +1,12 @@
+package boj11123;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class Boj11123 {
+public class Main {
 
     static final char SHEEP = '#';
     static final char GRASS = '.';

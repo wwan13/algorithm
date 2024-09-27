@@ -1,9 +1,11 @@
+package boj2041;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.List;
 
-public class Boj2041 {
+public class Main {
 
     public static void main(String[] args) {
         String input = Console.readLine();

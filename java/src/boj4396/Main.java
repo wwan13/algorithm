@@ -1,8 +1,10 @@
+package boj4396;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Boj4396 {
+public class Main {
 
     public static void main(String[] args) {
         int n = Console.nextInt();

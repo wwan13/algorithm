@@ -135,7 +135,7 @@ def process_pr(pr):
     files = get_pr_files(pr_number)
     code_snippets = ""
     for file in files:
-        if file["filename"].endswith(".java"):  # Java 파일만 포함
+        if file["filename"].endswith(".java") or file["filename"].endswith(".kt"):  # Java 파일만 포함, kotlin도 가능
             file_content = get_file_content(file["contents_url"])
             code_snippets += f"```java\n{file_content}\n```\n\n"
 

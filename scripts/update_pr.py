@@ -138,6 +138,9 @@ def process_pr(pr):
         if file["filename"].endswith(".java") or file["filename"].endswith(".kt"):  # Java 파일만 포함, kotlin도 가능
             file_content = get_file_content(file["contents_url"])
             code_snippets += f"```java\n{file_content}\n```\n\n"
+        elif file["filename"].endswith(".kt"):
+            file_content = get_file_content(file["contents_url"])
+            code_snippets += f"```kotlin\n{file_content}\n```\n\n"
 
     # PR 제목 및 내용 업데이트
     new_title = f"[{level_str}] {problem_number} {problem_name}"
